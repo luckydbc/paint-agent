@@ -1,0 +1,17 @@
+{
+  "model": "deepseek-chat",
+  "temperature": 0,
+  "prices": {
+    "typesetting_per_source_page": 3.0,
+    "printing_per_page": 0.5,
+    "binding_per_volume": 20.0
+  },
+  "defaults": {
+    "default_needs_layout": false,
+    "default_needs_binding": false
+  },
+  "rules": {
+    "evidence_critic_enabled": true,
+    "max_clarify_rounds": 5
+  }
+}
